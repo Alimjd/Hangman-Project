@@ -137,12 +137,6 @@ public class Hangman {
         char letterGuess = sc.next().charAt(0);
         tryThis(letterGuess);
         System.out.println(getKnownSoFar());
-        }
-
-        
-        
-
-
         while (numberOfIncorrectTries <= 6)
 
         {
@@ -210,6 +204,13 @@ public class Hangman {
             }
 
         }
+        }
+
+        
+        
+
+
+        
 
     }
 }
